@@ -33,8 +33,9 @@ roads = make_roads(
 
 world_text = build_world(road_cfgs=roads)
 
-out_path = os.path.join(WORLDS_DIR, "ExperimentdDesign.wbt")
+out_path = os.path.join(WORLDS_DIR, "ExperimentDesign.wbt")
 with open(out_path, "w", encoding="utf-8") as f:
     f.write(world_text)
 
 print(f"Wrote {out_path}")
+
